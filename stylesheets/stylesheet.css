@@ -141,11 +141,11 @@ img {
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
 
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
+  box-shadow: 0 0 6px #ebebeb;
+  -webkit-box-shadow: 0 0 6px #ebebeb;
+  -moz-box-shadow: 0 0 6px #ebebeb;
+  -o-box-shadow: 0 0 6px #ebebeb;
+  -ms-box-shadow: 0 0 6px #ebebeb;
 }
 
 p img {
@@ -297,6 +297,15 @@ Full-Width Styles
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
+}
+
+#project_logo {
+  float: left;
+  margin: 0 30px 0 0;
+}
+
+#project_logo img {
+  width: 126px;
 }
 
 #project_title {
