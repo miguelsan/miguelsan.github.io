@@ -257,6 +257,17 @@ table {
   text-align: left;
  }
 
+
+ table.description ul {
+   list-style-type: none;
+   padding-left: 0px;
+}
+
+table.description li {
+  margin-bottom: 7px;
+}
+
+
 th {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 10px;
@@ -428,6 +439,14 @@ Small Device Styles
   .inner {
     min-width: 320px;
     max-width: 480px;
+  }
+
+  td {
+    padding: 5px;
+   }
+
+  .stage {
+    display: none;
   }
 
   #project_title {
