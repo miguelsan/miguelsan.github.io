@@ -212,13 +212,22 @@ ol {
   padding-left: 20px;
 }
 
-footer ul {
+
+ul.taglist {
   list-style-type: none;
 }
 
-footer ul li {
+ul.taglist li {
   display: inline;
-  margin-right: 80px;
+  margin-right: 50px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
 }
 
 dl dt {
@@ -247,6 +256,17 @@ table {
   margin-bottom: 20px;
   text-align: left;
  }
+
+
+ table.description ul {
+   list-style-type: none;
+   padding-left: 0px;
+}
+
+table.description li {
+  margin-bottom: 7px;
+}
+
 
 th {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -396,6 +416,11 @@ Full-Width Styles
   box-shadow: 0px 0px 2px #ebebeb;
 }
 
+footer ul li {
+  display: inline;
+  margin-right: 60px;
+}
+
 
 
 /*******************************************************************************
@@ -414,6 +439,14 @@ Small Device Styles
   .inner {
     min-width: 320px;
     max-width: 480px;
+  }
+
+  td {
+    padding: 5px;
+   }
+
+  .stage {
+    display: none;
   }
 
   #project_title {
@@ -448,6 +481,11 @@ Small Device Styles
     min-width: 320px;
     max-width: 480px;
     font-size: 11px;
+  }
+
+  footer ul li {
+    display: block;
+    margin-right: 0px;
   }
 
 }
