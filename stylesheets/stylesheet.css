@@ -308,6 +308,7 @@ Full-Width Styles
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(top, #373737, #212121);
+  border-bottom: 1px solid #111;
 }
 
 #header_wrap .inner {
@@ -341,15 +342,22 @@ Full-Width Styles
 
 #main_content_wrap {
   background: #f2f2f2;
-  border-top: 1px solid #111;
-  border-bottom: 1px solid #111;
 }
 
-#main_content {
-  padding-top: 40px;
+#main_content_wrap section {
+  padding: 20px 0px;
+}
+
+.even_section {
+  background: #c9c9c9;
+}
+
+.odd_section {
+  background: #f2f2f2;
 }
 
 #footer_wrap {
+  border-top: 1px solid #111;
   background: #212121;
 }
 
