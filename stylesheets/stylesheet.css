@@ -219,7 +219,7 @@ ul.taglist {
 
 ul.taglist li {
   display: inline;
-  margin-right: 50px;
+  padding-right: 50px;
 }
 
 footer {
@@ -228,6 +228,7 @@ footer {
 
 footer ul {
   list-style-type: none;
+  padding-left: 0px;
 }
 
 dl dt {
@@ -364,7 +365,7 @@ Full-Width Styles
 
 footer ul li {
   display: inline;
-  margin-right: 60px;
+  padding: 0px 30px;
 }
 
 
@@ -427,7 +428,7 @@ Small Device Styles
 
   footer ul li {
     display: block;
-    margin-right: 0px;
+    padding: 0px;
   }
 
 }
