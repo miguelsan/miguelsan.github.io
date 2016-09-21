@@ -1,0 +1,11 @@
+header a {
+  color: #fff;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
+.date {
+  text-align: right;
+}
